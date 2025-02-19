@@ -205,6 +205,7 @@ const About = () => {
             hoverOverlayWrapperClassName={hoverOverlayWrapperStyle}
             hoverOverlay={<span></span>}
             loop={true}
+            autoPlay={true}
           />
         </div>
 
@@ -238,7 +239,7 @@ const About = () => {
             <span className="lang-label">Learning:</span>
             <button className="lang-button learning">German</button>
           </div>
-          <div className="explore-container">
+          {/* <div className="explore-container">
             <button className="explore-btn">EXPLORE</button>
             <img
               src={arrow}
@@ -246,7 +247,7 @@ const About = () => {
               className="explore-arrow"
               loading="lazy"
             />
-          </div>
+          </div> */}
         </div>
 
         <div className="movie-slider-container">

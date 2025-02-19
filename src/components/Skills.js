@@ -11,27 +11,30 @@ const skillsData = [
     description:
       "Crafting cinematic visuals through directing, shooting, and editing.",
     color: "#526683",
-    image: "https://cdn-icons-png.flaticon.com/512/1632/1632596.png",
+    image:
+      "https://res.cloudinary.com/dnn6y8vao/image/upload/v1740002771/filming_o4rgcb.png", // 🎥 Camera Icon
   },
   {
     name: "Voice Over",
     description:
       "Delivering professional voice recordings for commercials, narrations, and more.",
     color: "#A5A9AE",
-    image: "https://cdn-icons-png.flaticon.com/512/5522/5522743.png",
+    image:
+      "https://res.cloudinary.com/dnn6y8vao/image/upload/v1740002771/voice-over_uho94s.png", // 🎤 Microphone Icon
   },
   {
     name: "Software Development",
     description: "Building modern and efficient software solutions.",
     color: "#7A7A79",
-    image: "https://cdn-icons-png.flaticon.com/512/687/687350.png",
+    image:
+      "https://res.cloudinary.com/dnn6y8vao/image/upload/v1740002771/code_u1epwz.png", // 💻 Code/Programming Icon
   },
   {
     name: "Project Management",
     description:
       "Managing teams and projects to ensure smooth execution and delivery.",
     color: "#534D4D",
-    image: "https://cdn-icons-png.flaticon.com/512/1532/1532556.png",
+    image: "https://cdn-icons-png.flaticon.com/512/1532/1532556.png", // 📊 Task/Project Icon
   },
 ];
 
